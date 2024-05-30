@@ -17,6 +17,6 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build -t sliding-puzzle .
-          docker tag sliding-puzzle zalegah/sliding-puzzle:latest
-          docker push zalegah/sliding-puzzle
+          docker build -t assignment-backend .
+          docker tag assignment-backend zalegah/assignment-backend:latest
+          docker push zalegah/assignment-backend
